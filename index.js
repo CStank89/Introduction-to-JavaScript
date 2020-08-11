@@ -1,13 +1,28 @@
 /************************************************************** Task 1: Warm-up! **************************************************************/
 //Task a: declare a variable called votingAge, console log true if age > 18 (no function required)
 
+// let votingAge = '18'
 
+// if (votingAge >= 18){
+//     console.log(true);
+// }
+// else if(votingAge < 18){
+//     console.log(false);
+// }
 
 
 
 //Task b: declare a variable and then use a conditional to change the value of that variable based on the value assigned to a second variable (no function required)
 
+// let dog = 'Toby';
+// let 
 
+// if(behavior === 'good'){
+//     dog = 'Toby';
+// }
+// else if( behavior === 'bad'){
+//     dog = 'Noa';
+// }
 
 
 
@@ -19,16 +34,27 @@
 
 //Task d: Write a function to multiply a*b 
 
+// function multiply(a , b){
+//     return a * b; 
+// }
 
-
+// console.log(multiply(2 , 4));
 
 
 /************************************************************** Task 2 **************************************************************/
 //Age in Dog years
 //write a function that takes your age and returns it to you in dog years - they say that 1 human year is equal to seven dog years 
 
+// multiple age by 7
 
+// let age = '31'
+// let dogAge ='7'
 
+// function multiply(age  , dogAge){
+//     return age * dogAge;
+    
+// }
+// console.log (multiply(age , dogAge));
 
 
 /************************************************************** Task 3 **************************************************************/
@@ -47,8 +73,13 @@
 // 4 - 7 months 5% of their body weight 
 // 7 - 12 months 4% of their body weight
 
+
+// let weight =''
+
+
 // when you are finished invoke your function with the weight of 15 lbs and the age of 1 year - if your calculations are correct your result should be 0.44999999999999996
   
+
 
 
 
@@ -60,7 +91,17 @@
 // use math.random to determine the computers choice 
 // hint while you can complete this with only conditionals based on strings it may help to equate choice to a number 
 
-  
+function choices(){
+let random = math.random()
+if (random < .3){
+    console.log('rock')
+}
+if (random > .3 && random < .6){
+    console.log('paper')
+}
+if (random > .6){
+    console.log('scissors')
+}
   
 
 /************************************************************** Task 5 **************************************************************/
