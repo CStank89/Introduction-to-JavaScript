@@ -106,53 +106,53 @@
 // hint while you can complete this with only conditionals based on strings it may help to equate choice to a number
 
 
-// function choices(){
-// function choices(selection) {
-// let random = Math.random();{
-//     console.log(random);
-// }
-// if (random <= 0.3) {
-//     console.log('Computer chooses rock.');
-// if (selection === 'rock') {
-//     console.log('Games ends in a draw');
-//     }
-//     if (selection === 'paper') {
-//     console.log('Paper covers rock! You Win!');
-//     }
-//     if (selection === 'scissors') {
-//     console.log('Rock beats scissors! You Lose!');
-//     }
-//     }
-//     if (random > 0.3 && random <= 0.6) {
-//     console.log('Computer chooses paper');
-//     if (selection === 'paper'){
-//     console.log('Game ends in a draw');
-//     }
-//     if (selection === 'rock') {
-//     console.log('Paper cover rock! You Lose');
-//     }
-//     if (selection === 'scissors'){
-//     console.log('Scissors beats paper! You win');
-//     }
-//     }
+function choices(){
+function choices(selection) {
+let random = Math.random();{
+    console.log(random);
+}
+if (random <= 0.3) {
+    console.log('Computer chooses rock.');
+if (selection === 'rock') {
+    console.log('Games ends in a draw');
+    }
+    if (selection === 'paper') {
+    console.log('Paper covers rock! You Win!');
+    }
+    if (selection === 'scissors') {
+    console.log('Rock beats scissors! You Lose!');
+    }
+    }
+    if (random > 0.3 && random <= 0.6) {
+    console.log('Computer chooses paper');
+    if (selection === 'paper'){
+    console.log('Game ends in a draw');
+    }
+    if (selection === 'rock') {
+    console.log('Paper cover rock! You Lose');
+    }
+    if (selection === 'scissors'){
+    console.log('Scissors beats paper! You win');
+    }
+    }
 
-//     if (random > 0.6) {
-//     console.log('Computer chooses scissors');
-//         if (selection === 'scissors'){
-//             console.log('Game ends in a draw');
-//         }
-//         if (selection === 'paper'){
-//             console.log('Scissors beats paper! You win');
-//         }
-//         if (selection === 'rock'){
-//             console.log('Rock beats scissors! You lose');
-//         }
+    if (random > 0.6) {
+    console.log('Computer chooses scissors');
+        if (selection === 'scissors'){
+            console.log('Game ends in a draw');
+        }
+        if (selection === 'paper'){
+            console.log('Scissors beats paper! You win');
+        }
+        if (selection === 'rock'){
+            console.log('Rock beats scissors! You lose');
+        }
     
 
-//     }
-//     }
-// }
-//     console.log(choices('paper'));
+    }
+    }
+}
+    console.log(choices('paper'));
 /************************************************************** Task 5 **************************************************************/
 //Metric Converter
 //a. KM to Miles - should take the number of kilometers and convert it to the equal number of miles
@@ -181,9 +181,11 @@
 // create a function called annoyingSong
 // the function should take a starting number as an argument and count down - at each iteration it should log (number) bottles of soda on the wall, (number) bottles of soda, take one down pass it around (number left over) bottles of soda on the wall`
 
-// // for (let i = 0, i < 99; i--){
+function annoyingSong(){
+    for (let i = 0, i < 99; i--){
 
-// }
+    }
+}
 
 /************************************************************** Task 7 **************************************************************/
 //Grade Calculator
@@ -194,18 +196,18 @@
 //60s should be D
 //and anything below 60 should be F
 
-function GradeCalc(mark , grade){
-    if (mark >= 90){
-        return "A";
-    }
-    if (mark < 90 && mark >= 80){
-        return "B";
-         
-    }
+// function GradeCalc(mark , grade){
+//     if (mark >= 90){
+//         return "A";
+//     }
+//     if (mark < 90 && mark >= 80){
+//         return "B";
+
+//     }
     
     
-}
-console.log GradeCalc(mark(88));
+// }
+// console.log GradeCalc( mark (88));
 
 /************************************************************** Stretch **************************************************************/
 //Create a function that counts the number of vowels within a string. It should handle both capitalized and uncapitalized vowels.
